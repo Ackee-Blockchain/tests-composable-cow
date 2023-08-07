@@ -1,4 +1,4 @@
-# Woke tests for Solady
+# Woke tests for Composable Cow
 
 ## Setup
 
@@ -8,4 +8,4 @@
 4. `woke init pytypes` to generate pytypes
 5. `woke test` to run tests
 
-Tested with `woke` version `3.5.0` and `anvil` version `0.1.0 (25d3ce7 2023-08-01T00:20:13.496244391Z)`.
+Tested with `woke` version `3.5.0` and `anvil` version `anvil 0.1.0 (638bd2e 2023-05-23T13:45:12.329779000Z)`.
