@@ -1,4 +1,4 @@
-# Woke tests for Composable Cow
+# Tests for Composable Cow
 
 ## Setup
 
