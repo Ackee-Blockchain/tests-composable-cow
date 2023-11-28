@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-from woke.testing import keccak256, TransactionRevertedError
+from wake.testing import keccak256, TransactionRevertedError
 
 def revert_handler(e: TransactionRevertedError):
     if e.tx is not None:

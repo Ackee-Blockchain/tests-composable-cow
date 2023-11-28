@@ -1,5 +1,4 @@
-from flask import app
-from woke.testing import *
+from wake.testing import *
 
 from pytypes.source.src.ComposableCoW import ComposableCoW
 from pytypes.source.src.interfaces.IConditionalOrder import IConditionalOrder

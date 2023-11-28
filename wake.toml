@@ -1,6 +1,7 @@
 [compiler.solc]
-ignore_paths = ["source/node_modules", "source/lib", "source/test", "source/script"]
-include_paths = ["source/node_modules"]
+include_paths = [
+    "source/node_modules",
+]
 remappings = [
     "src/=source/src/",
     "@openzeppelin/=source/lib/@openzeppelin/contracts/",
@@ -19,6 +20,12 @@ remappings = [
     "safe/=source/lib/safe/contracts/",
 ]
 evm_version = "paris"
+exclude_paths = [
+    "source/node_modules",
+    "source/lib",
+    "source/test",
+    "source/script",
+]
 
 [compiler.solc.optimizer]
 enabled = true
