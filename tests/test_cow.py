@@ -1,5 +1,5 @@
-from woke.testing import *
-from woke.testing.fuzzing import random_address
+from wake.testing import *
+from wake.testing.fuzzing import random_address
 from pytypes.source.lib.cowprotocol.src.contracts.GPv2Settlement import GPv2Settlement
 from pytypes.source.lib.cowprotocol.src.contracts.libraries.GPv2Order import GPv2Order
 from pytypes.source.lib.safe.contracts.Safe import Safe

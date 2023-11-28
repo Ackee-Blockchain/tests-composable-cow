@@ -1,7 +1,7 @@
 from hmac import new
 from traitlets import default
-from woke.testing import *
-from woke.testing.fuzzing import *
+from wake.testing import *
+from wake.testing.fuzzing import *
 
 from pytypes.source.lib.safe.contracts.Safe import Safe
 from pytypes.source.src.ComposableCoW import ComposableCoW
